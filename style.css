@@ -1,0 +1,30 @@
+body{
+  background-color: gold;
+}
+
+#menu{
+  background-color:silver;
+  grid-column: 1/2;
+
+  border-style: ridge;
+  border-width: 10px;
+  border-color: #CD7F32;
+}
+#iframe{
+  border-style: ridge;
+  border-color: #CD7F32;
+border-width: 10px;
+grid-column: 2/3
+}
+#container{
+  height: 700px;
+  width: : 100%;
+  display: grid;
+  grid-template-columns: 200px auto;
+  grid-template-rows: 100%;
+
+}
+ol{
+  list-style-type: upper-roman;
+  color: #CD7F32;
+}
